@@ -1,0 +1,19 @@
+.card_container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 18rem;
+  margin: 20px;
+  border-color: transparent;
+  background-color: whitesmoke;
+}
+
+.card-desc {
+  font-size: 13px;
+  font-weight: 400;
+  color: gray;
+}

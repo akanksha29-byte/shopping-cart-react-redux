@@ -1,0 +1,17 @@
+.cart-badge {
+  position: relative;
+}
+
+.cart-badge-item {
+  position: absolute;
+  font-size: 13px;
+  width: 17px;
+  height: 17px;
+  text-align: center;
+  color: whitesmoke;
+  font-style: normal;
+  top: 0;
+
+  background-color: red;
+  border-radius: 50%;
+}
