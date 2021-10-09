@@ -3,3 +3,11 @@
   padding: 20px;
   background-color: white;
 }
+
+table tbody tr :last-child {
+  text-align: right;
+}
+
+table tbody tr {
+  height: 30px;
+}

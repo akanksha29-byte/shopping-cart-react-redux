@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Router>
         <NavBar />
-        <div className="d-flex justify-content-center align-items-center">
+        <div className="d-flex justify-content-center align-items-center main-container">
           <Switch>
             <Route path="/cart" component={ShoppingCart} />
             <Route path="/" component={CardContainer} exact />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 
 const CheckOut = ({ item }) => {
   let final = 0;
@@ -40,6 +41,10 @@ const CheckOut = ({ item }) => {
           </tr>
         </tbody>
       </table>
+
+      <Button className="w-100 mt-3" variant="primary" id="button-addon1">
+        Pay
+      </Button>
     </>
   );
 };
